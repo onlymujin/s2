@@ -30,6 +30,7 @@ public class AdminAction {
         }else{
             //登录失败
             model.addAttribute("errmsg","用户名或密码不正确!");
+            System.out.println("登录失败-hot-fix");
             return "login";
         }
 
