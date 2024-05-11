@@ -9,8 +9,7 @@ import pojo.Admin;
 import service.AdminService;
 
 
-//测试版本2
-//测试版本3
+//测试下载版
 @Controller
 @RequestMapping("/admin")
 public class AdminAction {
@@ -30,7 +29,6 @@ public class AdminAction {
         }else{
             //登录失败
             model.addAttribute("errmsg","用户名或密码不正确!");
-            System.out.println("测试push版");
             return "login";
         }
 
