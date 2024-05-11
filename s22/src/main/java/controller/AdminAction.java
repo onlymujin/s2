@@ -31,6 +31,7 @@ public class AdminAction {
             //登录失败
             model.addAttribute("errmsg","用户名或密码不正确!");
             System.out.println("登录失败-hot-fix");
+            System.out.println("hot-fix-测试冲突版本");
             return "login";
         }
 
