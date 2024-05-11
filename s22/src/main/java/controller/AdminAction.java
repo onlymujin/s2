@@ -9,7 +9,7 @@ import pojo.Admin;
 import service.AdminService;
 
 
-
+//测试版本2
 @Controller
 @RequestMapping("/admin")
 public class AdminAction {
